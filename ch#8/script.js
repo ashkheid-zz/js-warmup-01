@@ -3,7 +3,7 @@ function isEven(num) {
     throw "The argument you passed is not a number! please pass a number.";
   }
 
-  return (num % 2 !== 0);
+  return (num % 2 === 0);
 }
 
 try {
